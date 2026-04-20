@@ -3,6 +3,7 @@ import SwiftUI
 
 struct HomeView: View {
     @State private var anime: [Anime] = []
+    @Binding var favorites: Set<Int>
     let service = NetworkingService()
     
     var body: some View {
@@ -12,7 +13,7 @@ struct HomeView: View {
                 VStack(alignment: .leading, spacing: 20){
                     
                     ForEach(genresList, id: \.self) {genre in
-                        RowView(genre: genre, anime: Array(anime(for:genre).prefix(20))
+                        RowView(favorites: $favorites, genre: genre, anime: Array(anime(for:genre).prefix(20))
                         )
                     }
                 }
@@ -75,7 +76,4 @@ struct HomeView: View {
         }
         return result
     }
-}
-#Preview {
-    HomeView()
 }

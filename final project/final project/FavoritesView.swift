@@ -1,12 +1,18 @@
-/*
 import SwiftUI
 
-struct FavoritesView {
-    @State var isFav: Bool = false
+struct FavoritesView: View {
+    @State private var anime: [Anime] = []
+    @Binding var favorites: Set<Int>
+    let service = NetworkingService()
+    
+    var favoriteAnime: [Anime] {
+        anime.filter { favorites.contains($0.mal_id)} // filters through all anime to see which mal_ids are in favorites to be able to be listed
+    }
     
     var body: some View {
         NavigationStack {
             List {
+                ForEach(favoriteAnime, id: \.mal_id) { item in ListCardView(anime:item, favorites: $favorites)}
                 
             }
             .navigationTitle(Text("Favorites"))
@@ -22,6 +28,9 @@ struct FavoritesView {
             }
             
         }
+        .task {
+            anime = try! await service.getAnime()
+        }
     }
 }
-*/
+

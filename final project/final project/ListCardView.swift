@@ -1,7 +1,8 @@
 
+
 import SwiftUI
 
-struct CardView: View {
+struct ListCardView: View {
     let anime: Anime
     @Binding var favorites: Set<Int>
     
@@ -10,7 +11,7 @@ struct CardView: View {
     }
     
     var body: some View {
-        VStack(alignment: .leading, spacing:10) {
+        HStack() {
             //            to convertr url for image
             AsyncImage(url: URL(string:anime.images.jpg.image_url)) {image in image
                     .resizable()
@@ -18,27 +19,30 @@ struct CardView: View {
             } placeholder: {
                 Color.gray.opacity(0.2)
             }
-            .frame(width:150, height:210)
+            .frame(width:120)
             .clipShape(RoundedRectangle(cornerRadius:8))
-            
-            Text(anime.title)
-                .font(.callout)
-                .lineLimit(2)
-                .frame(height:34, alignment:.top)
-            HStack{
-                Text("⭐️ \(anime.score, specifier: "%.1f")")
-                    .font(.subheadline)
-                    .foregroundColor(.gray)
-                Spacer()
-                Button {
-                    toggleFav() // a new button made to add/remove mal_id from favorites list
-                } label: {
-                    Image(systemName: isFav ? "heart.fill" : "heart")
+            VStack(alignment:.leading){
+                Text(anime.title)
+                    .font(.body)
+                    .lineLimit(2)
+                    .frame(height:34, alignment:.top)
+                HStack{
+                    Text("⭐️ \(anime.score, specifier: "%.1f")")
+                        .font(.subheadline)
+                        .foregroundColor(.gray)
+                    Button {
+                        toggleFav() // a new button made to add/remove mal_id from favorites list
+                    } label: {
+                        Image(systemName: isFav ? "heart.fill" : "heart")
                         .foregroundStyle(Color.red)
+                    }
                 }
+                Text("Add Review")
+                    .font(.callout)
+                    .foregroundColor(Color.black.opacity(0.6))
             }
+            .padding(.horizontal)
         }
-        .frame(width:150)
         .foregroundStyle(Color.black)
     }
     
@@ -51,4 +55,3 @@ struct CardView: View {
         }
     }
 }
-
