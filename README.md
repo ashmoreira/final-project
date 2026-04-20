@@ -1,7 +1,5 @@
-# final-project
+# Animore :3
 App Team Bootcamp Final Project: Anime Discovery App
-
-Animore :3
 
 An app to discover different anime based on genre and popularity, with the option to keep a page and write reviews of favorites. Built using Jikan API. 
 
