@@ -7,8 +7,30 @@ An app to discover different anime based on genre and popularity, with the optio
 
 The first milestone features a homepage where different anime are categorized by genre. The search button is not currently functioning yet.
 
-Future additions will include the suggested page, the favorites page, and hopefully the search bar!
+The second milestone features a suggested page where anime are split into two different categories: ranked by popularity and ranked by score. You can not click on said anime yet to get a description of it. On the homepage, however, you can click on the image to view the description of the show and favorite it from that page. You can favorite any anime on the homepage, and it will appear in the favorites page. 
 
-Some of the code is commented out for the sake of being able to view the app while in production. There is a picture of the homepage below.
+Future additions include the description page connected to the suggested items, the ability to write reviews within the favorites page, and the ability to use the search button.
 
-<img width="250" height="500" alt="Screenshot 2026-04-19 at 5 41 20 PM" src="https://github.com/user-attachments/assets/5e7de107-b0c5-49cb-a2a1-941a967869e6" />
+Here are some images of Animore!
+
+Homepage:
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 42" src="https://github.com/user-attachments/assets/df4d3cc1-b63c-4368-8255-960c8e3d6a8b" /><img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 47" src="https://github.com/user-attachments/assets/e4f346e1-cfc5-4e3a-a093-f7311dc841b3" />
+
+
+Suggested Page:
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 36" src="https://github.com/user-attachments/assets/993d4d2e-33ee-4098-be79-be80bc3316b6" />
+
+Favorites Page:
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 31" src="https://github.com/user-attachments/assets/1324bb23-1188-48ad-a73c-70a349732da7" />
+
+
+Detail Page:
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 47" src="https://github.com/user-attachments/assets/fdc8cbd8-78cc-4ce7-a581-198307d8f12d" />
+
+
+
+
+
+
+
+
