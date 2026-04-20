@@ -27,6 +27,9 @@ Favorites Page:
 Detail Page:
 <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 47" src="https://github.com/user-attachments/assets/fdc8cbd8-78cc-4ce7-a581-198307d8f12d" />
 
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 31" src="https://github.com/user-attachments/assets/d61e0b5d-09bd-4c44-9cb3-41da618d44c2" />
+
+
 
 
 
