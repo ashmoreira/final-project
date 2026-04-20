@@ -14,20 +14,19 @@ Future additions include the description page connected to the suggested items, 
 Here are some images of Animore!
 
 Homepage:
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 42" src="https://github.com/user-attachments/assets/df4d3cc1-b63c-4368-8255-960c8e3d6a8b" /><img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 47" src="https://github.com/user-attachments/assets/e4f346e1-cfc5-4e3a-a093-f7311dc841b3" />
-
+<img width="360" height="783" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 42" src="https://github.com/user-attachments/assets/44d6cc57-a798-4a33-8980-7bfeeca6f59e" />
 
 Suggested Page:
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 36" src="https://github.com/user-attachments/assets/993d4d2e-33ee-4098-be79-be80bc3316b6" />
+<img width="360" height="783" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 36" src="https://github.com/user-attachments/assets/a06c07fe-98bc-4a58-b7e4-02971cbc627a" />
 
 Favorites Page:
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 31" src="https://github.com/user-attachments/assets/1324bb23-1188-48ad-a73c-70a349732da7" />
+<img width="360" height="783" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 31" src="https://github.com/user-attachments/assets/3d2d71c7-68d0-4212-b6c8-676ab781dd22" />
 
 
 Detail Page:
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 47" src="https://github.com/user-attachments/assets/fdc8cbd8-78cc-4ce7-a581-198307d8f12d" />
+<img width="360" height="783" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 47" src="https://github.com/user-attachments/assets/d499b5b8-a843-40ed-a767-e87eb4e32274" />
 
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-20 at 18 00 31" src="https://github.com/user-attachments/assets/d61e0b5d-09bd-4c44-9cb3-41da618d44c2" />
+
 
 
 
